@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:ital,wght@0,300;0,400;1,400&family=Roboto:wght@300&family=Unbounded:wght@200&family=Zen+Antique&display=swap');
+
+  *{
+    font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Unbounded', sans-serif;
+font-family: 'Zen Antique', serif;
+  }
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
  }
@@ -19,9 +28,6 @@ body {
 
 }
 
-
-
-
   .back-video{
     position: absolute;
     right: 0;
@@ -29,6 +35,11 @@ body {
     z-index: -1;
   }
   
+  .footer-color{
+    font-family: 'Roboto', sans-serif;
+   background-color: #e9757a;
+  }
+
   .sbudda{
    
     position: relative;
