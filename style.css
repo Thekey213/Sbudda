@@ -1,49 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:ital,wght@0,300;0,400;1,400&family=Roboto:wght@300&family=Unbounded:wght@200&family=Zen+Antique&display=swap');
 
-  *{
-    font-family: 'Hedvig Letters Serif', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Unbounded', sans-serif;
-font-family: 'Zen Antique', serif;
-  }
+* {
+  font-family: 'Hedvig Letters Serif', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Unbounded', sans-serif;
+  font-family: 'Zen Antique', serif;
+}
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
- }
- 
-.navbar-toggler{
-
-    border-color:#e9757a;
-    background-color: #e9757a;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
-    
-.navbar-brand{
-    color: #e9757a;
+
+.navbar-toggler {
+  border-color: #e9757a;
+  background-color: #e9757a;
+}
+
+.navbar-brand {
+  color: #e9757a;
 }
 
 body {
-    background-color: #f8dede;
-
+  background-color: #f8dede;
 }
 
-  .back-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-  
-  .footer-color{
-    font-family: 'Roboto', sans-serif;
-   background-color: #e9757a;
-  }
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
 
-  .sbudda{
-   
-    position: relative;
+.footer-color {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e9757a;
+}
+
+.sbudda {
+  position: relative;
   overflow: hidden;
+  opacity: 0.8; /* Adjust the opacity as needed (0.0 to 1.0) */
 }
 
 /* Style for the video element */
@@ -64,12 +61,18 @@ body {
 
 /* Additional styles based on your design */
 .sbudda h1 {
-    color: #e9757a;; /* Set the text color */
-    font-size: 2.5rem; /* Adjust the font size */
-    font-weight: 700; /* Apply bold font weight */
+  color: #e9757a; /* Set the text color */
+  font-size: 2.5rem; /* Adjust the font size */
+  font-weight: 700; /* Apply bold font weight */
 }
-
 
 .sbudda p {
-  color:  #9349b1; /* Set the text color */
+  color: #9349b1; /* Set the text color */
+  /* Add additional styling for the <p> element */
+  font-size: 1.2rem; /* Adjust the font size */
+  font-weight: 400; /* Adjust the font weight */
+  opacity: 1; /* Ensure full opacity for the <p> element */
 }
+
+/* Other styles in your CSS file... */
+
