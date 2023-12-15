@@ -14,7 +14,7 @@
 
   
        <!--Nav bar-->
-<nav class="navbar navbar-expand-lg   p-3">
+<nav class="navbar navbar-expand-lg   p-2">
     <div class="container">
 
         <a href="" class="fw-bold  navbar-brand"><i class="bi bi-youtube"> Sbudda Dadubba</i> </a>
@@ -55,7 +55,7 @@
       <source src="img/sbud.mp4" type="video/mp4">
   </video>
   <div class="container p-5">
-      <div class="d-sm-flex align-items-center justify-content-between">
+      <div id="p-change" >
         
       </div>
   </div>
@@ -64,9 +64,10 @@
 
     <section class="p-5" >
         <div class="container" >
+          
                       
                  <div class="d-sm-flex align-items-center justify-content-between">
-                  
+                      
                     <img  data-aos="fade-right"  class="img-fluid " src="img/phone_img.png" alt=""/>
           
                      <div>
@@ -172,13 +173,34 @@
     </script>
     
        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       
        <script>
-        
-      AOS.init({
-        duration: "2000",
-        once: true
-      });
+        function changeElementPadding() {
+            // Get the element by its ID
+            var element = document.getElementById('p-change');
+    
+            // Check if the element exists and AOS duration is 1000
+            if (element && AOS.duration === 900) {
+                // Change the padding property
+                element.style.padding = '1rem'; // Set your desired padding
+                console.log('Padding changed!');
+            } else {
+                console.log('Conditions not met:', element, AOS.duration);
+            }
+        }
+    
+        // Call the function when AOS initialization is complete
+        AOS.init({
+            duration: "1000",
+            once: true,
+            callback: function () {
+                changeElementPadding();
+            }
+        });
     </script>
+    
+
+    
 
 
 </body>

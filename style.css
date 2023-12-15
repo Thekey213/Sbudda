@@ -37,6 +37,10 @@ body {
   background-color: #e9757a;
 }
 
+#p-change{
+  padding: 3rem;
+}
+
 .sbudda {
   position: relative;
   overflow: hidden;
