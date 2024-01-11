@@ -13,73 +13,31 @@
 <body>
 
   
-       <!--Nav bar-->
-<nav class="navbar navbar-expand-lg   p-2">
-    <div class="container">
-
-        <a href="" class="fw-bold  navbar-brand"><i class="bi bi-youtube"> Sbudda Dadubba</i> </a>
-         
-        
-        
-        <button 
-        class="navbar-toggler" 
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navmenu"
-        >
-        <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto" >
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#videos" class="nav-link">Videos</a>
-                </li>
-            </ul>
-        </div>
+  <section class="hero-bg">
+    <div class="hero-text">
+      <h1>Sbudda Dabudda</h1>
+     <a href="gallery.html" class="hero-btn">LEARN MORE</a>
     </div>
-    
-    
-</nav>
-
- <!--Home-->
- 
- <section class="sbudda text-light p-0 text-center text-sm-start">
-  <video autoplay muted loop plays-inline id="background-video" class="w-100">
-      <source src="img/sbud.mp4" type="video/mp4">
-  </video>
-  <div class="container p-5">
-      <div id="p-change" >
-        
-      </div>
-  </div>
-</section>
+  </section>
 
 
-    <section class="p-5" >
-        <div class="container" >
-          
-                      
-                 <div class="d-sm-flex align-items-center justify-content-between">
-                      
-                    <img  data-aos="fade-right"  class="img-fluid " src="img/phone_img.png" alt=""/>
-          
-                     <div>
-                          <p class="lead my-4">
-                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo dolor tenetur doloribus, eligendi quod rerum quas maxime dicta, in asperiores deleniti architecto reprehenderit aperiam eveniet exercitationem quia quis ea sed. Commodi eos at iure nesciunt dolorum, quidem ad doloremque quae?
-                         </p>
-                     </div>
-              
-                      
-          
-                </div>
+
+
+
+    <section class="about-bg" >  
+        <div class="container">
+        <div class="row align-items-center">
+            <div  data-aos="fade-right" class="col-md-6">
+                <h2>Just tryna be a better version of myself</h2>
+                <p>True vision is not by sight but it is to see even when the eyes are closed and to hear when ears are both closed. To be blind to the blinding world is to truly see.</p>
+            </div>
+            <div   data-aos="fade-up" class="col-md-6">
+                <img  src="img/5.jpeg" class="img-fluid milani-img" alt="Photographer Faith Image">
+            </div>
         </div>
+        </div>
+        
+     
     </section>
 
 
@@ -122,6 +80,27 @@
 </div>
         </div>
      </section>
+
+
+     <section class="about-bg" >
+      <div class="container" >
+        
+                    
+               <div class="d-sm-flex align-items-center justify-content-between">
+                    
+                  <img  data-aos="fade-right"  class="img-fluid " src="img/phone_img.png" alt=""/>
+        
+                   <div>
+                        <p class="lead my-4">
+                           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo dolor tenetur
+                       </p>
+                   </div>
+            
+                    
+        
+              </div>
+      </div>
+  </section>
 
 
   <!-- Videos -->
@@ -175,21 +154,9 @@
        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
        
        <script>
-        function changeElementPadding() {
-            // Get the element by its ID
-            var element = document.getElementById('p-change');
+       
     
-            // Check if the element exists and AOS duration is 1000
-            if (element && AOS.duration === 900) {
-                // Change the padding property
-                element.style.padding = '1rem'; // Set your desired padding
-                console.log('Padding changed!');
-            } else {
-                console.log('Conditions not met:', element, AOS.duration);
-            }
-        }
-    
-        // Call the function when AOS initialization is complete
+        
         AOS.init({
             duration: "1000",
             once: true,
